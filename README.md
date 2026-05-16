@@ -26,3 +26,16 @@ Install dependency:
 
 ```bash
 pip install pypdf
+```text
+To run a single file
+```bash
+py autonomous_insurance_claims_agent.py --input sample1.txt
+```text
+To run all files
+```bash
+py autonomous_insurance_claims_agent.py --input .
+```text
+Output
+
+The system generates:
+output.json
