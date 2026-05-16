@@ -1,0 +1,21 @@
+Policy Number: POL12345
+Policyholder Name: abcxyz
+Effective Dates: 01/01/2025 to 01/01/2026
+
+Date: 10/05/2026
+Time: 02:30 PM
+Location: Bangalore
+Description: Minor vehicle collision at traffic signal
+
+Claimant: abcxyz
+Third Parties: None
+Contact: 9876543210
+Email: abcxyz@email.com
+
+Asset Type: Car
+Asset ID: KA01AB1234
+Estimated Damage: 15000
+
+Claim Type: Vehicle
+Attachments: Photos, License Copy
+Initial Estimate: 12000

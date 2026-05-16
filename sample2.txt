@@ -1,0 +1,21 @@
+Policy Number: POL99887
+Policyholder Name: mnoqrs
+Effective Dates: 01/01/2025 to 01/01/2026
+
+Date: 12/05/2026
+Time: 11:15 AM
+Location: Mysore
+Description: Driver reported injury after road accident
+
+Claimant: mnoqrs
+Third Parties: Another vehicle involved
+Contact: 9998887776
+Email: mnoqrs@email.com
+
+Asset Type: Bike
+Asset ID: KA09XY9988
+Estimated Damage: 30000
+
+Claim Type: Injury
+Attachments: Photos, Medical Report
+Initial Estimate: 28000

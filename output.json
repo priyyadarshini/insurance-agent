@@ -1,0 +1,52 @@
+{
+  "documents": [
+    {
+      "fileName": "sample1.txt",
+      "extractedFields": {
+        "Policy Number": "POL12345",
+        "Policyholder Name": "abcxyz",
+        "Effective Dates": "01/01/2025 to 01/01/2026",
+        "Date": "10/05/2026",
+        "Time": "02:30 PM",
+        "Location": "Bangalore",
+        "Description": "Minor vehicle collision at traffic signal",
+        "Claimant": "abcxyz",
+        "Third Parties": "None",
+        "Contact Details": "Phone: 9876543210; Email: abcxyz@email.com",
+        "Asset Type": "Car",
+        "Asset ID": "KA01AB1234",
+        "Estimated Damage": "15000",
+        "Claim Type": "Vehicle",
+        "Attachments": "Photos, License Copy",
+        "Initial Estimate": "12000"
+      },
+      "missingFields": [],
+      "recommendedRoute": "Fast-track",
+      "reasoning": "The estimated damage is below 25,000, so the claim qualifies for fast-track handling."
+    },
+    {
+      "fileName": "sample2.txt",
+      "extractedFields": {
+        "Policy Number": "POL99887",
+        "Policyholder Name": "mnoqrs",
+        "Effective Dates": "01/01/2025 to 01/01/2026",
+        "Date": "12/05/2026",
+        "Time": "11:15 AM",
+        "Location": "Mysore",
+        "Description": "Driver reported injury after road accident",
+        "Claimant": "mnoqrs",
+        "Third Parties": "Another vehicle involved",
+        "Contact Details": "Phone: 9998887776; Email: mnoqrs@email.com",
+        "Asset Type": "Bike",
+        "Asset ID": "KA09XY9988",
+        "Estimated Damage": "30000",
+        "Claim Type": "Injury",
+        "Attachments": "Photos, Medical Report",
+        "Initial Estimate": "28000"
+      },
+      "missingFields": [],
+      "recommendedRoute": "Specialist Queue",
+      "reasoning": "The claim type is injury, so it should be routed to a specialist queue."
+    }
+  ]
+}
