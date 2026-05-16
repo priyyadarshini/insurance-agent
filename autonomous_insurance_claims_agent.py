@@ -310,7 +310,6 @@ def process_document(path: Path) -> Dict[str, object]:
     route, reasoning, missing = route_claim(extracted)
 
     return {
-        "fileName": path.name,
         "extractedFields": extracted,
         "missingFields": missing,
         "recommendedRoute": route,
