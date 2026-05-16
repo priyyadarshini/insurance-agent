@@ -20,32 +20,36 @@ This project is a lightweight FNOL (First Notice of Loss) processing agent that 
 - Regex
 - pypdf
 
-
 ## How to Run
 
 Install dependency:
 
 ```bash
 pip install pypdf
+```
 
 Run a single file:
 
+```bash
 py autonomous_insurance_claims_agent.py --input sample1.txt
+```
 
 Run all files in folder:
 
+```bash
 py autonomous_insurance_claims_agent.py --input .
+```
 
-Output
+## Output
 
 The system generates:
+
+```text
 output.json
+```
 
 containing:
-extracted fields
-missing fields
-recommended route
-reasoning
-
-The system generates:
-output.json
+- extracted fields
+- missing fields
+- recommended route
+- reasoning
