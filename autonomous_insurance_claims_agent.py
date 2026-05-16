@@ -50,9 +50,7 @@ MANDATORY_FIELDS = [
 FRAUD_KEYWORDS = ["fraud", "inconsistent", "staged"]
 
 
-# -----------------------------
 # Text extraction helpers
-# -----------------------------
 
 def extract_text_from_txt(path: Path) -> str:
     return path.read_text(encoding="utf-8", errors="ignore")
@@ -85,9 +83,7 @@ def load_document_text(path: Path) -> str:
     raise ValueError(f"Unsupported file type: {path.suffix}")
 
 
-# -----------------------------
 # Parsing helpers
-# -----------------------------
 
 def _first_match(patterns: List[str], text: str, flags=re.IGNORECASE | re.MULTILINE) -> Optional[str]:
     for pattern in patterns:
@@ -245,9 +241,7 @@ def build_extracted_fields(text: str) -> Dict[str, Optional[str]]:
     }
 
 
-# -----------------------------
 # Routing logic
-# -----------------------------
 
 def is_missing(value: Optional[str]) -> bool:
     return value is None or str(value).strip() == ""
@@ -324,9 +318,7 @@ def process_document(path: Path) -> Dict[str, object]:
     }
 
 
-# -----------------------------
 # CLI
-# -----------------------------
 
 def iter_documents(input_path: Path):
     if input_path.is_file():
